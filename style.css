@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+/** Large Screen **/
+@media only screen and (min-width: 769px) {
+    #pink{
+        background-color: #F5C6D6;
+        border: 2px solid white;
+        width: 100%;
+        height: 200px;
+        }
+
+        #hotpink{
+            display: inline-block;
+            background-color: #EE2E84;
+            position: relative;
+            border: 5px solid white;
+            width: 25%;
+            height: 200px;
+            
+            }
+
+            #blue{
+                display: inline-block;
+                background-color: #85CFD8;
+                border: 5px solid white;
+                width: 50%;
+                height: 200px;
+                
+            }
+
+            #green{
+                background-color: #8DC63F;
+                border: 5px solid white;
+                width: 75%;
+                height: 100px;
+                display: inline-block;
+               
+            }
+
+            #orange{
+                display: inline-block;
+                position: absolute;
+                background-color: #E76E34;
+                border: 5px solid white;
+                width: 25%;
+                height: 100px;
+               
+            }
+}
+
+   
+
+/** Small Screen **/
+
+
+@media only screen and (max-width: 768px){
+    #pink{
+        background-color: #F5C6D6;
+        border: 5px solid white;
+        width: 100%;
+        height: 100px;
+        }
+
+        #hotpink{
+           
+            background-color: #EE2E84;
+           
+            border: 5px solid white;
+            width: 100%;
+            height: 100px;
+            
+            
+            }
+    
+        #blue{
+            background-color: #85CFD8;
+        border: 5px solid white;
+        
+            width: 100%;
+            height: 100px;
+            
+        }
+        #green{
+            background-color: #8DC63F;
+        border: 5px solid white;
+        
+            width: 100%;
+            height: 100px;
+           
+        }
+        #orange{
+            background-color: #E76E34;
+        border: 5px solid white;
+        
+            width: 100%;
+            height: 100px;
+           
+        }
+}
